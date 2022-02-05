@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
       modules/docker.nix
       modules/git.nix
+      modules/gnome.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
