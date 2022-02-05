@@ -8,6 +8,7 @@
   imports =
     [
       ./hardware-configuration.nix
+      modules/docker.nix
       modules/git.nix
     ];
 
