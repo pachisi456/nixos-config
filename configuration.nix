@@ -14,6 +14,7 @@
       modules/gnome.nix
       modules/gpg.nix
       modules/sound.nix
+      modules/vim.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
