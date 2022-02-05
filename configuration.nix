@@ -8,10 +8,12 @@
   imports =
     [
       ./hardware-configuration.nix
+
       modules/docker.nix
       modules/git.nix
       modules/gnome.nix
       modules/gpg.nix
+      modules/sound.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
