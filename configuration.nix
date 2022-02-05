@@ -8,6 +8,7 @@
   imports =
     [
       ./hardware-configuration.nix
+      modules/git.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
