@@ -51,7 +51,7 @@
 	bindsym $mod+Return exec alacritty
 
 	# kill focused window
-	bindsym $mod+Shift+q kill
+	bindsym $mod+q kill
 
 	# start dmenu (a program launcher)
 	bindsym $mod+d exec --no-startup-id dmenu_run
