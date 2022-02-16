@@ -19,7 +19,6 @@
 
     shellAliases = {
       # NixOS.
-      config = "sudo vim /etc/nixos/configuration.nix";
       update = "sudo nixos-rebuild switch";
 
       # Set up 2 or 3 monitors. Done automatically with gnome. Useful for i3-only setup.
