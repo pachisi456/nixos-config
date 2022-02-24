@@ -66,6 +66,7 @@
     # Command line.
     alacritty
     curl
+    htop
     tmux
     tmuxinator
     wget
