@@ -65,6 +65,7 @@
   environment.systemPackages = with pkgs; [
     # Command line.
     alacritty
+    ansible
     curl
     htop
     tmux
@@ -75,6 +76,7 @@
     vscode
 
     # Coding.
+    ansible
     insomnia
     nodejs-16_x
     yarn
