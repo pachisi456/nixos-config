@@ -77,6 +77,7 @@
 
     # Coding.
     ansible
+    dbeaver
     insomnia
     nodejs-16_x
     yarn
