@@ -16,6 +16,8 @@
       alias = {
         co = "checkout";
         c = "commit";
+        poh = "push origin HEAD";
+        fwl = "push origin HEAD --force-with-lease";
         fixup = "commit --fixup";
         s = "status";
         last = "!git --no-pager log -1 HEAD";
