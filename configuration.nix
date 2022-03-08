@@ -76,6 +76,7 @@
     vscode
 
     # Coding.
+    act
     ansible
     dbeaver
     insomnia
