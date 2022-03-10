@@ -70,6 +70,7 @@
     htop
     tmux
     tmuxinator
+    unzip
     wget
 
     # Editors.
