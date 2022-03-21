@@ -82,6 +82,7 @@
     dbeaver
     insomnia
     nodejs-16_x
+    maven
     yarn
 
     # Browsers.
