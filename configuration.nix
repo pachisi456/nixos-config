@@ -15,6 +15,7 @@
       modules/gpg.nix
       modules/i3/module.nix
       modules/sound.nix
+      modules/vagrant.nix
       modules/vim.nix
       modules/zsh.nix
     ];
