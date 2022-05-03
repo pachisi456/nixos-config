@@ -71,6 +71,7 @@
     alacritty
     ansible
     curl
+    dig
     htop
     tmux
     tmuxinator
