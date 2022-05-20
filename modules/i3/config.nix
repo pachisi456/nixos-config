@@ -187,4 +187,13 @@
 	bar {
 			status_command i3status
 	}
+	
+	# Cutom key bindings.
+	bindsym $mod+b exec google-chrome-stable
+	bindsym $mod+Shift+b exec rambox
+	bindsym $mod+Shift+s exec spotify
+	bindsym $mod+t exec thunderbird
+	bindsym $mod+Shift+t exec teams
+	bindsym $mod+x exec gnome-control-center sound
+	bindsym $mod+Shift+x exec blueman-manager
 ''
