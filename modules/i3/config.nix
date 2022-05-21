@@ -196,4 +196,9 @@
 	bindsym $mod+Shift+t exec teams
 	bindsym $mod+x exec gnome-control-center sound
 	bindsym $mod+Shift+x exec blueman-manager
+
+	# Custom start up applications.
+	exec rambox
+	exec sleep 2; flameshot
+	exec sleep 2; megasync
 ''
