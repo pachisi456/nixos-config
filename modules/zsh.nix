@@ -28,6 +28,10 @@
 
       # Other.
       mux = "tmuxinator";
+      # only-weekdays = "if [ $(date +%u) -lt 6 ]; then $1; fi";
+      only-weekdays = "function only_weekdays(){ if [ $(date +%u) -lt 6 ]; then $1; fi }; only_weekdays";
+      # alias blah='function _blah(){ echo "First: $1"; echo "Second: $2"; };_blah'
+
     };
   };
 }

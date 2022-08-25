@@ -85,8 +85,9 @@
 	bindsym $mod+Shift+Up move up
 	bindsym $mod+Shift+Right move right
 
+	# TODO Make horizontal and vertical orientation toggleable with a script.
 	# split in horizontal orientation
-	bindsym $mod+b split h
+	bindsym $mod+Shift+v split h
 
 	# split in vertical orientation
 	bindsym $mod+v split v

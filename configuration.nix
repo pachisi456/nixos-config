@@ -8,6 +8,7 @@
   imports =
     [
       ./hardware-configuration.nix
+      # ./extra-hosts.nix
 
       modules/docker.nix
       modules/git.nix
@@ -28,13 +29,24 @@
   networking.networkmanager.enable = true;
 
   # Time zone.
-  time.timeZone = "Europe/Berlin";
+  # time.timeZone = "Europe/Berlin";
+  time.timeZone = "America/Mexico_City";
 
   # The global useDHCP flag is deprecated, therefore explicitly set to false here.
   # Per-interface useDHCP will be mandatory in the future, so this generated config
   # replicates the default behaviour.
   networking.useDHCP = false;
   networking.interfaces.wlp2s0.useDHCP = true;
+  networking.extraHosts =
+  ''
+    # AIR Servers
+    13.49.65.209  int
+    13.48.138.6   pre
+    16.171.57.104	prod
+    13.48.67.101	demo
+    13.48.177.202	tp-prd
+    13.48.55.229	tp-int
+  '';
 
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
@@ -99,6 +111,7 @@
     signal-desktop
     tdesktop # Telegram
     teams
+    zoom
 
     # Other applications.
     flameshot # TODO Fix.

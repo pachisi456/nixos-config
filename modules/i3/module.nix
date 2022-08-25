@@ -24,5 +24,17 @@
     };
   };
 
+  # Script used for autostart apps to only start certain applications on weekdays.
+  environment.shellAliases = {
+    weekdays = ''
+      function only_weekdays() {
+        if [ $(date +%u) -lt 6 ];
+          then $1;
+        fi;
+      };
+      only_weekdays
+    '';
+  };
+
   environment.etc."i3.conf".text = pkgs.callPackage ./config.nix {};
 }
